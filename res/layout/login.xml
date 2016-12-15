@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="18dp"
+        android:text="Login"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="352dp"
+        android:text="Login" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="267dp"
+        android:text="Remember me" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="139dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="74dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="81dp"
+        android:text="User name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="144dp"
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="350dp"
+        android:text="Cancel" />
+
+</AbsoluteLayout>

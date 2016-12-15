@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="260dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="276dp"
+        android:text="total price"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="124dp"
+        android:text="quantity"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="80dp"
+        android:text="unit price"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="28dp"
+        android:text="product name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="359dp"
+        android:text="agree" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="189dp"
+        android:layout_y="356dp"
+        android:text="cancel" />
+
+</AbsoluteLayout>

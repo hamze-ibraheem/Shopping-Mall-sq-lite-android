@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item1" android:title="submit"></item>
+    <item android:id="@+id/item2" android:title="get bill"></item>
+    <item android:id="@+id/item3" android:title="rest order"></item>
+    <item android:id="@+id/item4" android:title="register"></item>
+    <item android:id="@+id/item5" android:title="login"></item>
+    <item android:id="@+id/item6" android:title="add product"></item>
+    <item android:id="@+id/item7" android:title="exit"></item>
+    
+
+</menu>
